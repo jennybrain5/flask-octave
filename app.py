@@ -10,7 +10,7 @@ def default():
 	
 	#file = requests.get(url, stream=True)
 	#dump = file.raw
-    return 'Octave+Flask Web Service<BR><BR>To generate PNG figure add this to the current URL:<BR>/genfig?script=<b>URL_TO_SCRIPT</b>&id=<b>FIGUIRE_PARAMETER</b>&name=<b>FIGURE_NAME</b><BR>Example:http://192.168.99.100:5000/genfig?url=https://goo.gl/nvJhJZ&id=10&name=oct_fig.png'
+    return 'Octave+Flask Web Service<BR><BR>To generate PNG figure add this to the current URL:<BR>/genfig?script=<b>URL_TO_SCRIPT</b>&id=<b>FIGUIRE_PARAMETER</b>&name=<b>FIGURE_NAME</b><BR>Example:http://192.168.99.100:5000/genfig?url=https://goo.gl/QQhXZi&id=10&name=oct_fig.png'
 	
 @app.route('/genfig')
 def gen_figure():
