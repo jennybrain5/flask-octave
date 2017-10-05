@@ -13,5 +13,5 @@ Los archivos `app.py`, `Dockerfile` y `requirements.txt` deben estar almacenados
 de forma local. 
 
 El archivo `app.py` hace un llamado al script `prueba.octave` que está almacenado
-en este repositorio a través de una URL, lo ejecuta y crea una imagen que almacena 
-de forma local en el directorio de ejecución del contenedor.
+en este repositorio a través de una URL, lo ejecuta y como resultado guarda una 
+imagen en formato PNG que almacena de forma local en el directorio de ejecución del contenedor.
